@@ -20,7 +20,7 @@ jobs:
           seperator: '/'
 
       - name: Build and publish Sweetly Frontend
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         env:
           VUE_APP_URL_API: "https://api.sweetly.ca/api/"
         with:
